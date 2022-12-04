@@ -68,6 +68,7 @@
 .profile5 {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    margin-bottom: 50px ;
 }
 .profile5-img {
     width: 100px  ;
@@ -152,4 +153,48 @@
     border-radius: 4px ;
     background-color:black ;
     color: white;
+}
+
+
+
+
+
+.profile6 {
+    padding: 15px ;
+    border-radius: 10px ;
+    background-color: lightgray ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.data6 {
+    font-family: arial,sans-serif;
+    padding:10px ;
+    background-color: rgb(177, 177, 177) ;
+    border-radius: 9px ;
+    margin-right: 10px ;
+}
+.img-data6 {
+    width: 100% ;
+    border-radius: 10px ; 
+}
+.title-d6 {
+    font-size: 1.5rem;
+    margin-top: 5px ;
+    margin-bottom: 0px ;
+    font-weight: bold ;
+}
+.author-d6 {
+    margin-top: 5px ;
+    font-size: 1.2rem;
+    margin-bottom: 0px ;
+    font-weight: bold;
+}
+.description-d6 {
+    margin-top: 10px;
+}
+.btn-d6 {
+    padding: 7px 22px ;
+    border: none ;
+    border-radius: 3px ;
+    
 }
